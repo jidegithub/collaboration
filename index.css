@@ -1,4 +1,8 @@
 .sample {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+form {
+  background-color: burlywood;
+  padding: 2rem 1.5rem;
 }
