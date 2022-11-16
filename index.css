@@ -2,3 +2,36 @@
     display: flex;
     justify-content: center;
 }
+#sample {
+    justify-content: left;
+}
+
+/* property */
+.text h1 {
+    color: rgb(68, 21, 21);  /*left:key, right:value */
+    background-color: rgba(49, 30, 5, 0.8);
+}
+
+img.image {
+    /* background: teal url("./") no-repeat top left; */
+    /* width: 1000px;
+    /* 640px by 321px */
+    /* background-im
+    age: url("./screen.png"); */
+    /* background-repeat: repeat; */
+    /* background-position: left top; */
+    width: 300px;
+}
+
+.card {
+    border: 800px;
+    width: 800px;
+    /* outline: 12px solid green;
+    outline-width: 30px;
+    outline-color: darkblue;
+    outline-style: dotted;
+    outline-offset: 34px; */
+}
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<style>
+    div.parent {
+        /* margin: 100px 5rem 6em 2%; */
+        /* margin-top: 200px; */
+        /* width: 500px; */
+        /* max-width: 200px; */
+        /* margin-left: 10rem;
+        margin-right: 20rem;
+        margin-bottom: 30px; */ */
+    }
+    p {
+        background-color:crimson;
+        height: revert;
+    }
+    p.child {
+        padding: 30px 20px;
+        text-align: start;
+                /* top right bottom left */
+                /* top&bottom left&right */
+        /* margin-top: 40px; */
+    }
+    p.child span {
+        text-transform: uppercase;
+    }
+</style>
+<body>
+    <div style="display: flex;">
+        <div class="parent card" style="margin-right: 12px;"> <!--parent -->
+            parent
+            <p class="child"> <!--child -->
+                child
+                Lorem <span>ipsum</span> dolor,  
+            </p>
+        </div>
+        <div class="parent card"> <!--parent -->
+            <img class="image" src="./screen.png" alt="screen">
+        </div>
+    </div>
+    
+</body>
+</html>
