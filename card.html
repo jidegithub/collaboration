@@ -10,6 +10,11 @@
 <style>
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(249deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url('./netflix.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 80%; */
+    height: 400px;
   }
   div {
     border: 1px solid black;
@@ -24,7 +29,7 @@
 </style>
 
 <body>
-  <div>
+  <div class="wrapper">
     <h3><b>Free</b></h3>
     <p>
       For individuals or very small
@@ -56,5 +61,38 @@
       <li>2GB of attachments per base</li>
     </ul>
   </div>
+
+  <div>
+    <video controls width="250" autoplay="true">
+      <source src="/video-tv-0819.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <details open>
+    <summary>What is Netflix</summary>
+    <div class="faq__content">
+      <p>
+        Netflix is a streaming service that offers a wide variety of award-winning TV 
+        shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+
+        You can watch as much as you want, whenever you want without a single commercial 
+        – all for one low monthly price. There's always something new to discover and new 
+        TV shows and movies are added every week!
+      </p>
+    </div>
+  </details>
+  <details>
+    <summary>FAQ 2</summary>
+    <div class="faq__content">
+      <p>Answer 2</p>
+    </div>
+  </details>
+  <details>
+    <summary>FAQ 3</summary>
+    <div class="faq__content">
+      <p>Answer 3</p>
+    </div>
+  </details>
+
 </body>
 </html>
