@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    figure.image-wrapper {
+        padding: 2px;
+        width: 100px;
+        height: 100px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        display: inline-block;
+        position: relative;
+    } 
+
+    img.image {
+        width: 140px;
+        clip-path: circle();
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+<body>
+    <div>
+        <aside>
+            <nav>
+
+            </nav>
+        </aside>
+        <main style="background-color: rgb(153, 221, 222);">
+            <div class="post-card width:470px border-radius">
+                <section class="stories">
+                    <figure class="image-wrapper">
+                        <img class="image" src="./portfolio/guy.jpg" alt="guy picture">
+                    </figure>
+                </section>
+                <section class="post-card-handle">
+                    <span>
+                        <div>
+                            <img src="" alt="">
+                            <p>isiomaa_</p>
+                        </div>
+                        <div>
+                            icon
+                        </div>
+                    </span>
+                </section>
+                <section>
+                    <img src="" alt="">
+                </section>
+            </div>
+            <div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
